@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    background-color: #4a4e69;
+}
+.heading {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-block: 16px;
+}
+.heading-section{
+    background-color: #22223b;
+}
+.filter-section, .card-section {
+    background-color: #4a4e69;
+}
+.filter-button {
+    all: unset;
+    background-color: #22223b99 ;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin: 8px;
+    
+}
+
+.filter-button:hover {
+    background-color: #22223b;
+    transition: all 0.2s;
+}
+.filter-section {
+    display: flex;
+    justify-content: center;
+}
+.Card {
+    width: 300px;
+    margin: 8px;
+    color: white;
+    background-color: #22223bd1;
+    border-radius: 6px;
+}
+
+.filter-button:focus {
+    border: 2px solid white;
+    background-color: #22223b;
+}
+.card-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-details {
+    padding: 4px;
+    overflow: hidden;
+    padding: 1rem;
+}
+.card-details-para {
+    font-weight: 300;
+}
+.like-div {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    right: 10px;
+    bottom: -12px;
+}
+.card-image {
+    position: relative;
+}
+.card-details-heading {
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+.spinner-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.spinner-section p {
+    color: white;
+    margin-top: 5px;
+    font-size: 2rem;
+}
